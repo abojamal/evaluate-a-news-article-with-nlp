@@ -30,6 +30,6 @@
     "sass-loader": "^10.0.2",
     "style-loader": "^1.2.1",
     "terser-webpack-plugin": "^4.2.2",
-    "webpack-dev-server": "^3.7.2"
+    "webpack-dev-server": "^3.11.0"
   }
 }
