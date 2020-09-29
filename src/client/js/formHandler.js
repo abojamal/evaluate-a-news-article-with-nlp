@@ -6,12 +6,6 @@ function handleSubmit(event) {
   Client.checkForName(formText);
 
   console.log('::: Form Submitted :::');
-  // console.log(formText);
-  // fetch('http://localhost:8081/test')
-  //   .then((res) => res.json())
-  //   .then(function (res) {
-  //     document.getElementById('results').innerHTML = res.message;
-  //   });
 
   postData('/api', { txt: formText }).then(function (res) {
     document.getElementById('results').innerHTML =
