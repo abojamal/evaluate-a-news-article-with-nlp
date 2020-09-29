@@ -44,5 +44,8 @@ app.post('/api', function (req, res) {
       projectData.subjectivity = data.subjectivity;
       //send the stored data in endpoint back to client
       res.send(projectData);
+    })
+    .catch((error) => {
+      console.log('Error');
     });
 });
